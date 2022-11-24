@@ -5,7 +5,7 @@
 % function B=bilin_assembly(bilin,p,t)
 %
 %  bilin = function handle to integrand of the bilinear form
-%          given as bilin(u,v,du,dv), where
+%          given as bilin(u,v,du,dv,h), where
 %          u  - values of function u
 %          v  - values of function v
 %          du{1} - x-derivative of function u
